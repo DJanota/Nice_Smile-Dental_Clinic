@@ -191,31 +191,51 @@ body {
 }
 
 .team-section {
-    padding-top: 12vh;
-    padding-bottom: 12vh;
+    padding-top: 14vh;
+    padding-bottom: 14vh;
 }
 
 .team-section img {
     padding-bottom: 1vh;
     padding-top: 3vh;
     margin: 0 auto;
+    border-radius: 50%;
 }
 
 .team-section h4 {
     font-size: 22px;
     font-weight: 400;
+    color: #000;
+    text-align: center;
 }
 
 .team-section h6 {
-    color: #e84545;
+    color: #000;
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .team-section p {
     color: #6c7279;
     font-size: 14px;
+    text-align: justify;
+}
+
+.team-section .social-button {
+    border: 1px solid #7EC0EE;
+    left: 25%;
+    position: relative;}
+
+.team-section .social-button i {
+    border: 1px solid #7EC0EE;
+    color: #7EC0EE;
+    border: none;
+}
+
+.team-section .social-button i:hover {
+    border: none;
 }
 
 .social-button {
@@ -236,7 +256,7 @@ body {
 }
 
 .social-button:active i {
-    color: white;
+    color: #fff;
 }
 
 .carousel-section .carousel-indicators li {
@@ -250,30 +270,33 @@ body {
 
 .carousel-section .carousel-inner img {
     width: 100%;
-    max-height: 500px;
+    min-height: 480px;
+    max-height: 480px;
 }
 
 .carousel-section .carousel-image {
     width: 100%;
-    max-height: 500px;
+    max-height: 480px;
 }
 
 .carousel-section .carousel-caption {
-    padding-bottom: 12vh;
+    width: 460px;
+    height: 380px;
+
 }
 
 .carousel-section .carousel-caption h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-family: "Cardo";
     line-height: 40px;
     font-weight: 100;
     text-align: left;
+    text-align: justify;
     text-shadow: 1px 1px 1px black;
 }
 
 .carousel-section .carousel-caption h6 {
-    text-transform: uppercase;
     text-align: left;
     text-shadow: 1px 1px 1px black;
 }
