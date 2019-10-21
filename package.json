@@ -1,0 +1,29 @@
+{
+    "name": "Nice_Smile-Dental_Clinic",
+    "version": "1.0.0",
+    "description": "Grunt file for Nice_Smile-Dental_Clinic",
+    "main": "index.js",
+    "scripts": {
+        "test": "Nice_Smile-Dental_Clinic"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DawidJanota/Nice_Smile-Dental_Clinic"
+    },
+    "keywords": [
+    "grunt"
+  ],
+    "author": "DawidJanota",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DawidJanota/Nice_Smile-Dental_Clinic"
+    },
+    "homepage": "https://github.com/DawidJanota/Nice_Smile-Dental_Clinic",
+    "devDependencies": {
+        "grunt": "^1.0.1",
+        "grunt-browser-sync": "^2.2.0",
+        "grunt-contrib-imagemin": "^2.0.1",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-sass": "^2.0.0"
+    }
+}
