@@ -44,6 +44,52 @@ body {
     color: #7EC0EE;
 }
 
+/*Button Back*/
+#button {
+    z-index: 1000;
+    width: 55px;
+    height: 55px;
+    right: 30px;
+    bottom: 27px;
+    border-radius: 4px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    text-decoration: none;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #7EC0EE;
+    text-align: center;
+    position: fixed;
+    visibility: hidden;
+}
+
+#button::after {
+    content: "\f0a6";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+#button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+#button:active {
+    background-color: #7EC0EE;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*Button Back*/
 .hero-heading {
     max-width: 1200px;
     color: #fff;
