@@ -19,7 +19,7 @@ html {
 
 .hero {
     min-height: 106vh;
-    background-color: rgba(00, 00, 00, 0.75);
+    background-color: rgba(00, 00, 00, 0.80);
 }
 
 .hero .hero-caption {
@@ -44,7 +44,6 @@ html {
 
 .navbar-default .navbar-nav li {
     margin: 0 15px;
-
 }
 
 .navbar-default .navbar-nav li a {
@@ -142,6 +141,53 @@ html {
     color: #000;
     transition: all 0.5s;
 }
+
+/*About*/
+.about-section {
+    padding-top: 14vh;
+    padding-bottom: 14vh;
+}
+
+.about-section img {
+    padding-bottom: 1vh;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.about-section h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+
+.about-section h6 {
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    color: #6c7279;
+    font-size: 14px;
+}
+
+.about-section .social-button {
+    border: 1px solid #7EC0EE;
+    position: relative;
+}
+
+.about-section .social-button i {
+    border: 1px solid #7EC0EE;
+    color: #7EC0EE;
+    border: none;
+}
+
+.about-section .social-button i:hover {
+    border: none;
+}
+
+/*About*/
 
 .features-section {
     padding-top: 8vh;
@@ -313,7 +359,6 @@ i.benefits-fa:hover {
     font-size: 22px;
     font-weight: 400;
     color: #000;
-    text-align: center;
 }
 
 .team-section h6 {
@@ -321,18 +366,15 @@ i.benefits-fa:hover {
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .team-section p {
     color: #6c7279;
     font-size: 14px;
-    text-align: justify;
 }
 
 .team-section .social-button {
     border: 1px solid #7EC0EE;
-    left: 25%;
     position: relative;
 }
 
@@ -437,6 +479,25 @@ i.benefits-fa:hover {
         font-size: 14px;
         line-height: 14px;
     }
+
+    .carousel-section .carousel-inner img {
+        width: 100%;
+        min-height: 440px;
+        height: 0px;
+    }
+
+    .carousel-section .carousel-image {
+        width: 100%;
+        max-height: 500px;
+    }
+
+    .carousel-section .carousel-caption {
+        width: 340px;
+        min-width: 300px;
+        height: 350px;
+
+    }
+
 }
 
 .download-section {
